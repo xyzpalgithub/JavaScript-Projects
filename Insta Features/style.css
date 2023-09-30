@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a5106;
+  }
+  
+  #card{
+    height: 460px;
+    width: 400px;
+    background-color: #d6bedf;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  #card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    border: 2px solid red;
+  }
+  #card h1{
+    font-size: 40px;
+    margin: 8px, 0px;
+    
+  }
+  
+  #card h1:hover{
+    color: #c81c09;
+  }
+  #card h3{
+    font-size: 40px;
+    color: red;
+    margin: 20px;
+    
+  }
+  #card button{
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #card #send{
+    background-color: grey;
+    color: black;
+  }
+  
+  #card i{
+    color: red;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    opacity: 0.8;
+    transform: scale(0);
+    transition: all ease 0.5s
+  
+  }
+  
