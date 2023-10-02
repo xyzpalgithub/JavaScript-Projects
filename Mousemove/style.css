@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    background-color: #b21f1f;
+    
+  }
+  
+  .imagediv{
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    background-color: yellow;
+    overflow: hidden;
+  }
+  
+  .imagediv img{
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
